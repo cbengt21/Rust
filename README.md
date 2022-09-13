@@ -14,6 +14,8 @@ run app by "./exe_name"
 
 Generating a new project (https://www.rust-lang.org/learn/get-started):
 "cargo new 'project_name'"
+"cargo new project_name --bin" -> create binary crate
+"cargo new project_name --lib" -> create library crate
 
 Building a project (without running it):
 "cargo build"
@@ -26,3 +28,9 @@ Updating crates (will ignore the Cargo.lock file and figure out all the latest v
 
 Build documentation provided by all of your dependencies locally and open it in your browser:
 "cargo doc --open"
+
+Removes the target directory:
+"cargo clean"
+
+Analyzes the current project and report errors, but don't build object files:
+"cargo check"
