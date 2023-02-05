@@ -34,3 +34,9 @@ Removes the target directory:
 
 Analyzes the current project and report errors, but don't build object files:
 "cargo check"
+
+Running linter:
+"cargo clippy"
+
+Rust formatter:
+"cargo fmt"

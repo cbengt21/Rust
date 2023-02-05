@@ -1,0 +1,4 @@
+# .rustfmt.toml
+
+# The max_width option sets the maximum width of comments
+max_width = 120
